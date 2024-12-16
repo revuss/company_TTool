@@ -15,7 +15,7 @@ function AppLayout({ children }: AppLayoutInterface) {
         <SideBar />
         <main
           className={`flex-grow mr-[1vw] h-[88vh] overflow-hidden transition-all duration-1000 ease-in-out ${
-            !navOpen ? "ml-[14vw]" : "ml-[1vw]"
+            !navOpen ? "2xl:ml-[14vw] md:ml-[16vw] " : "ml-[1vw]"
           }`}
         >
           <div className="h-full overflow-y-auto rounded-lg p-2 bg-white">

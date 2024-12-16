@@ -28,7 +28,7 @@ function Navbar() {
             <Bell />
           </li>{" "}
         </div>
-        <li className="uppercase p-[9px] cursor-pointer font-semibold px-3 bg-green-900 rounded-full">
+        <li className="uppercase p-[11px] cursor-pointer font-semibold px-3 bg-green-600 rounded-full">
           RT
         </li>
       </ul>

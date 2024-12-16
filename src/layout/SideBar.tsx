@@ -32,7 +32,7 @@ function SideBar() {
       duration-1000 ease-in-out
       ${
         !navOpen
-          ? "md:w-[14vw] w-[200px] opacity-100 scale-100 duration-1000"
+          ? "md:w-[16vw] 2xl:w-[14vw] w-[200px] opacity-100 scale-100 duration-1000"
           : "w-1 opacity-0 scale-95 pointer-events-none -translate-x-[700px]"
       }`}
     >
@@ -49,7 +49,7 @@ function SideBar() {
               to={item.route}
               key={index}
               className={({ isActive }) =>
-                `flex text-sm whitespace-nowrap items-center justify-start gap-x-5 text-white cursor-pointer p-2 rounded-md transition-colors duration-300 ease-in-out ${
+                `flex text-xs xl:text-md whitespace-nowrap items-center justify-start gap-x-5 text-white cursor-pointer p-2 rounded-md transition-colors duration-300 ease-in-out ${
                   isActive ? "bg-green-600" : "hover:bg-green-700"
                 }`
               }

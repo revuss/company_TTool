@@ -16,8 +16,8 @@ const TaskManagement: React.FC = () => {
       label: "Completed",
       content: (
         <div>
-          <h2 className="text-lg font-semibold mb-2">In Progress Tasks</h2>
-          <p>Tasks currently being worked on.</p>
+          <h2 className="text-lg font-semibold mb-2">Completed Tasks</h2>
+          <p>Tasks that are completed and need approval.</p>
         </div>
       ),
     },
@@ -25,7 +25,7 @@ const TaskManagement: React.FC = () => {
       label: "Approved",
       content: (
         <div>
-          <h2 className="text-lg font-semibold mb-2">Completed Tasks</h2>
+          <h2 className="text-lg font-semibold mb-2">Approved Tasks</h2>
           <p>Tasks that are completed and approved.</p>
         </div>
       ),

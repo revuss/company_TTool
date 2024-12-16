@@ -24,7 +24,7 @@ const Tabs: React.FC<TabsProps> = ({ tabs }) => {
   return (
     <div className="flex flex-col justify-center items-center w-full">
       <div className="flex border-[4px] rounded-lg border-gray-800 w-full justify-center bg-gray-800 text-white">
-        <div className="relative flex border-[4px] rounded-lg border-gray-800 w-full bg-gray-800 text-white overflow-hidden">
+        <div className="relative flex w-full border-[4px] rounded-lg border-gray-800 bg-gray-800 text-white overflow-hidden">
           <div
             className="absolute top-0 bottom-0 bg-green-600 rounded-md transition-transform duration-300 ease-in-out"
             style={{
@@ -37,7 +37,7 @@ const Tabs: React.FC<TabsProps> = ({ tabs }) => {
             <button
               key={index}
               onClick={() => handleTabChange(index)}
-              className={`py-2 px-4 flex-1 text-center relative z-10 font-semibold transition-colors duration-300 ${
+              className={`py-2 px-4 flex-1 text-center relative font-semibold transition-colors duration-300 ${
                 activeTab === index ? "text-white" : "text-gray-400"
               }`}
             >
