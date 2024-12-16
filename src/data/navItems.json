@@ -1,0 +1,117 @@
+{
+  "navItems": [
+    {
+      "role": "EMPLOYEE",
+      "items": [
+        {
+          "name": "Dashboard",
+          "icon": "LayoutDashboard",
+          "route": "/dashboard"
+        },
+        { "name": "My Tasks", "icon": "ListTodo", "route": "/tasks" },
+        { "name": "Projects", "icon": "Presentation", "route": "/projects" },
+        {
+          "name": "Team Calendar",
+          "icon": "CalendarFold",
+          "route": "/calendar"
+        },
+        { "name": "Notifications", "icon": "Bell", "route": "/notifications" },
+        {
+          "name": "Performance",
+          "icon": "ChartNoAxesCombined",
+          "route": "/performance"
+        },
+        {
+          "name": "Time Tracking",
+          "icon": "ClockAlert",
+          "route": "/time-tracking"
+        },
+        { "name": "My Holidays", "icon": "Volleyball", "route": "/holidays" },
+        { "name": "Settings", "icon": "Settings", "route": "/settings" }
+      ]
+    },
+    {
+      "role": "TEAM_LEAD",
+      "items": [
+        {
+          "name": "Dashboard",
+          "icon": "LayoutDashboard",
+          "route": "/dashboard"
+        },
+        { "name": "My Team", "icon": "Group", "route": "/team" },
+        { "name": "Projects", "icon": "Presentation", "route": "/projects" },
+        {
+          "name": "Team Calendar",
+          "icon": "CalendarFold",
+          "route": "/calendar"
+        },
+        {
+          "name": "Task Allocation",
+          "icon": "Locate",
+          "route": "/tasks/allocation"
+        },
+        {
+          "name": "Reports",
+          "icon": "ChartNoAxesCombined",
+          "route": "/reports"
+        },
+        { "name": "Meetings", "icon": "ClockAlert", "route": "/meetings" },
+        { "name": "Notifications", "icon": "Bell", "route": "/notifications" },
+        {
+          "name": "Team Holidays",
+          "icon": "Volleyball",
+          "route": "/team-holidays"
+        },
+        { "name": "Settings", "icon": "Settings", "route": "/settings" }
+      ]
+    },
+    {
+      "role": "MANAGER",
+      "items": [
+        {
+          "name": "Dashboard",
+          "icon": "LayoutDashboard",
+          "route": "/dashboard"
+        },
+        { "name": "Portfolio", "icon": "Presentation", "route": "/portfolio" },
+        {
+          "name": "Performance",
+          "icon": "ChartNoAxesCombined",
+          "route": "/performance"
+        },
+        { "name": "Budgets", "icon": "HandCoins", "route": "/budgets" },
+        { "name": "Analytics", "icon": "Flag", "route": "/analytics" },
+        { "name": "Meetings", "icon": "ClockAlert", "route": "/meetings" },
+        { "name": "Notifications", "icon": "Bell", "route": "/notifications" },
+        { "name": "Holiday", "icon": "Volleyball", "route": "/holidays" },
+        { "name": "Settings", "icon": "Settings", "route": "/settings" }
+      ]
+    },
+    {
+      "role": "CEO",
+      "items": [
+        {
+          "name": "Dashboard",
+          "icon": "LayoutDashboard",
+          "route": "/dashboard"
+        },
+        { "name": "Projects", "icon": "Presentation", "route": "/projects" },
+        {
+          "name": "Financial",
+          "icon": "ChartNoAxesCombined",
+          "route": "/financial"
+        },
+        { "name": "Employees", "icon": "Group", "route": "/employees" },
+        { "name": "Company Health", "icon": "Building2", "route": "/health" },
+        { "name": "Reports", "icon": "Flag", "route": "/reports" },
+        { "name": "Notifications", "icon": "Bell", "route": "/notifications" },
+        {
+          "name": "Holiday Analytics",
+          "icon": "Volleyball",
+          "route": "/holiday-analytics"
+        },
+        { "name": "Settings", "icon": "Settings", "route": "/settings" }
+      ]
+    }
+  ]
+}
