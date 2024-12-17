@@ -9,7 +9,147 @@ function MainRoute() {
         <Routes>
           <Route
             path="/"
-            element={<div className="h-[400vh]">Sample Content</div>}
+            element={
+              <div className="h-[400vh] flex flex-col">
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div> <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div> <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div> <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div> <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div> <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div> <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+                <div>Sample Content</div>
+              </div>
+            }
           />
           <Route path="tasks" element={<TaskManagement />} />
           <Route path="*" element={<div>Will Launch Soon</div>} />

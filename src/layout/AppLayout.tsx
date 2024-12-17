@@ -9,7 +9,7 @@ function AppLayout({ children }: AppLayoutInterface) {
   const { navOpen } = useNavContext();
 
   return (
-    <section className="h-screen w-full flex flex-col duration-1000 transition-all ease-in-out select-none bg-gray-800">
+    <section className="h-screen !scroll-smooth w-full flex flex-col duration-1000 transition-all ease-in-out select-none bg-gray-800">
       <Navbar />
       <div className="flex flex-grow pt-[10vh]">
         <SideBar />

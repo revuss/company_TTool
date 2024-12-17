@@ -22,8 +22,8 @@ const Tabs: React.FC<TabsProps> = ({ tabs }) => {
   };
 
   return (
-    <div className="flex flex-col justify-center items-center w-full">
-      <div className="flex border-[4px] rounded-lg border-gray-800 w-full justify-center bg-gray-800 text-white">
+    <div className="flex flex-col justify-center h-full items-center w-full overflow-hidden">
+      <div className="flex border-[4px] h-[10%] rounded-lg border-gray-800 w-full justify-center bg-gray-800 text-white">
         <div className="relative flex w-full border-[4px] rounded-lg border-gray-800 bg-gray-800 text-white overflow-hidden">
           <div
             className="absolute top-0 bottom-0 bg-green-600 rounded-md transition-transform duration-300 ease-in-out"
@@ -48,7 +48,7 @@ const Tabs: React.FC<TabsProps> = ({ tabs }) => {
       </div>
 
       <div
-        className={`tab-content p-4 mt-7 w-full h-full bg-white border border-gray-200 rounded-b-lg transform transition-transform duration-300 ease-out ${
+        className={`tab-content p-4 mt-4 overflow-y-auto w-full h-full bg-white border border-gray-200 rounded-b-lg transform transition-transform duration-300 ease-out ${
           isAnimating
             ? "translate-y-[20vh] opacity-0"
             : "translate-y-0 opacity-100"
