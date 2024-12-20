@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AppLayout from "../layout/AppLayout";
 import TaskManagement from "../features/TaskManagement";
+import CalenderMain from "../features/calender/CalenderMain";
 
 function MainRoute() {
   return (
@@ -152,6 +153,7 @@ function MainRoute() {
             }
           />
           <Route path="tasks" element={<TaskManagement />} />
+          <Route path="calendar" element={<CalenderMain />} />
           <Route path="*" element={<div>Will Launch Soon</div>} />
         </Routes>
       </AppLayout>
